@@ -1,110 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yabesh M | Technical Writer</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #0f172a;
-      color: white;
-      padding: 2rem;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       text-align: center;
     }
-    nav a {
-      margin: 0 1rem;
-      color: #93c5fd;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      color: #d1d5db;
+    }
+
+    .button {
+      padding: 0.75rem 1.5rem;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
       text-decoration: none;
     }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
+
+    .social-icons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
     }
-    h2 {
-      color: #1e3a8a;
+
+    .social-icons a {
+      color: #d1d5db;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
     }
-    .project, .sample {
-      margin-bottom: 1.5rem;
-      padding: 1rem;
-      border: 1px solid #ddd;
-      background: white;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #e5e7eb;
-      font-size: 0.9rem;
+
+    .social-icons a:hover {
+      color: #60a5fa;
     }
   </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>Yabesh M</h1>
-    <p>Software Engineer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#samples">Writing Samples</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a Computer Science Engineering graduate passionate about simplifying complex technologies into clear, concise, and user-focused content. With hands-on experience in full-stack web development, AI integration, and API-based systems, I create documentation that bridges the gap between developers and end-users.
-    </p>
-  </section>
+  <h1>YABESH M</h1>
+  <p>
+    I’m a Computer Science Engineering graduate passionate about simplifying complex technologies into clear,
+    concise, and user-focused content. With hands-on experience in full-stack web development, AI integration,
+    and API-based systems, I create documentation that bridges the gap between developers and end-users.
+  </p>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>AI-Powered Price Comparison Tool</h3>
-      <p>Built with Flask, OpenAI API, and SerpAPI to compare products in real-time from Amazon, Flipkart, and eBay.</p>
-    </div>
-    <div class="project">
-      <h3>Flight Booking System</h3>
-      <p>MERN stack project to handle booking, seat management, and user login with authentication features.</p>
-    </div>
-    <div class="project">
-      <h3>Weather Forecast App</h3>
-      <p>Used OpenWeatherMap API and Flask to show dynamic weather animations and real-time updates.</p>
-    </div>
-  </section>
+  <a class="button" href="#contact">Find Me Here</a>
 
-  <section id="samples">
-    <h2>Writing Samples</h2>
-    <div class="sample">
-      <h4>User Guide: AI Price Comparison Tool</h4>
-      <p><a href="#">[PDF Link Coming Soon]</a></p>
-    </div>
-    <div class="sample">
-      <h4>API Documentation: Product Search API</h4>
-      <p><a href="#">[Markdown Example Coming Soon]</a></p>
-    </div>
-    <div class="sample">
-      <h4>Tutorial: Build a Weather App with Flask</h4>
-      <p><a href="#">[Article Coming Soon]</a></p>
-    </div>
-  </section>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/yabesh-cse-8b20a1280" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/YABESH26" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:yabeszh@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:yabeszh@gmail.com">yabeszh@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/YABESH26" target="_blank">github.com/YABESH26</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/yabesh-cse-8b20a1280" target="_blank">linkedin.com/in/yabesh-cse</a></p>
-  </section>
-
-  <footer>
-    &copy; 2025 Yabesh M. All rights reserved.
-  </footer>
 </body>
 </html>
